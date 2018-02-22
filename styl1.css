@@ -1,0 +1,252 @@
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{  
+	border: 0px solid black;
+	margin: 0 auto;
+	padding-top: 20px;
+    padding-left: 22.5%;
+    padding-right: 22.5%;
+    font-family: "Arial";
+    font-size: 18px;
+   
+}
+
+header{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.center{
+    text-align: center;
+}
+.text-indent{
+    text-indent: 40px;
+}
+p{        
+    padding-bottom: 20px; 
+}
+
+ol li:nth-child(1),ol li:nth-child(3){
+    list-style-position: inside;
+    text-indent: 40px;
+}
+ol li:nth-child(2){
+    list-style-position: inside;
+    padding-left: 40px;
+}
+
+ol li:nth-child(4){
+    list-style-position: inside;
+    padding-left: 65px;
+}
+
+ol li{
+     padding-bottom: 20px; 
+}
+
+
+table {
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+
+table, td, th {
+    border: 1px solid grey;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.float-right{
+    float:right;
+}
+
+.float-left{
+    float:left;
+}
+
+.div{
+    margin-top: 50px;
+}
+
+.signature, .date, .position { 
+  margin:   ;
+  border-top: 1px solid #000;
+  width: 200px; 
+  text-align: center;
+}
+
+.a{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+}
+
+.container {
+    margin-top: -20px;
+}
+
+.labelx {
+    display:block;
+    font-size: 12px;
+}
+
+.form-group {
+    display:inline-block;
+}
+
+
+.a1{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+    width: 120px;
+    
+}
+
+
+.pos{
+  margin-left: 55%;
+}
+.school{
+    margin-left: 20%;
+}
+.add{
+    margin-left: 10%;
+}
+
+
+input:focus{
+  outline: 0;
+}
+
+.u{
+  margin-left: 150px;
+}
+
+.clearfix::after {
+    overflow: hidden;
+}
+.b{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+
+}
+
+.c{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+  width: 205px;
+}
+
+.d{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+  margin-right: 3.5%;
+}
+
+.asd{
+  margin-right: 15px;
+}
+
+.qwe{
+  margin-right:12%;
+}
+
+footer{
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* signature & title part */
+.completed-by1, .signature1, .title1  {
+  
+}
+.signature1, .title1 { 
+  margin: 20px 10px;
+  border-top: 1px solid #000;
+  width: 50px; 
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px)   {
+    main{  
+        border: 0px solid black;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 18px; 
+         font-family: "Arial";
+    }
+}
+
+@media screen and (max-width: 768px)   {
+    main{  
+        border: 0px solid black;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 18px; 
+         font-family: "Arial";
+    }    
+     
+}
+
+/*iphoneX landscape*/
+@media screen and (max-width: 812px)   {
+    main{  
+        border: 0px solid black;
+        margin: 0 auto;
+        padding-top: 20px;       
+        font-size: 18px; 
+         font-family: "Arial";
+    }    
+      
+}
+
+/*iPhoneX Portrait*/
+@media screen and (max-width: 375px)   {
+    main{  
+        border: 0px solid black;
+        margin: 0 auto;
+        padding-top: 20px;        
+        font-size: 18px; 
+         font-family: "Arial";
+    }
+}
+
+@media screen and (max-width: 320px)   {
+    main{  
+        border: 0px solid black;
+        margin: 0 auto;
+        padding-top: 20px;        
+        font-size: 18px; 
+         font-family: "Arial";
+    }
+    
+    .pos{
+        margin-left: auto;
+    }
+}
+
+
+
+
+/* The query above will trigger only for screens that are 600-400px wide.*/ 	
